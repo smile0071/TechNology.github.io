@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Галерея Компьютеров</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Современные компьютеры</h1>
+
+    <label class="theme-switch" style="display: flex; align-items: center; margin-bottom: 20px; cursor: pointer;">
+      <input type="checkbox" id="theme-toggle" />
+      <span style="margin-left: 8px;">Тёмная тема</span>
+    </label>
+
+    <section class="gallery">
+
+      <a href="https://hyperpc.ru/gaming-pc/one" target="_blank" rel="noopener" class="card-link" aria-label="HYPERPC ONE">
+        <article class="card fade-in">
+          <img src="img/One.jpg" alt="HYPERPC ONE" class="card-img" />
+          <div class="card-content">
+            <h2 class="card-title">HYPERPC ONE</h2>
+            <p class="card-description">Высокий FPS для старта: этот игровой компьютер — ваш шаг в мир соревновательных игр</p>
+            <span class="card-button">Подробнее</span>
+          </div>
+        </article>
+      </a>
+
+      <a href="https://hyperpc.ru/gaming-pc/dynamic-concept" target="_blank" rel="noopener" class="card-link" aria-label="HYPERPC DYNAMIC CONCEPT">
+        <article class="card fade-in">
+          <img src="img/dynamiconcept.jpg" alt="HYPERPC DYNAMIC CONCEPT" class="card-img" />
+          <div class="card-content">
+            <h2 class="card-title">HYPERPC DYNAMIC CONCEPT</h2>
+            <p class="card-description">Флагманский игровой компьютер: эксклюзивный дизайн.</p>
+            <span class="card-button">Подробнее</span>
+          </div>
+        </article>
+      </a>
+
+      <a href="https://hyperpc.ru/gaming-pc/titan-concept" target="_blank" rel="noopener" class="card-link" aria-label="HYPERPC TITAN CONCEPT">
+        <article class="card fade-in">
+          <img src="img/Titan.jpg" alt="HYPERPC TITAN CONCEPT" class="card-img" />
+          <div class="card-content">
+            <h2 class="card-title">HYPERPC TITAN CONCEPT</h2>
+            <p class="card-description">Компьютер для 8K гейминга и сложнейших проф задач</p>
+            <span class="card-button">Подробнее</span>
+          </div>
+        </article>
+      </a>
+
+    </section>
+  </main>
+
+  <!-- Скрипт в самом конце, с defer уже не нужен -->
+  <script src="theme.js"></script>
+</body>
+</html>

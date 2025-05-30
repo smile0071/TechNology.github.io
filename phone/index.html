@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Галерея смартфонов</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Современные смартфоны</h1>
+
+    <label class="theme-switch" style="display: flex; align-items: center; margin-bottom: 20px; cursor: pointer;">
+      <input type="checkbox" id="theme-toggle" />
+      <span style="margin-left: 8px;">Тёмная тема</span>
+    </label>
+
+    <section class="gallery">
+
+      <a href="https://www.samsung.com/ru/smartphones/galaxy-s25/" target="_blank" rel="noopener" class="card-link" aria-label="Перейти на официальный сайт Samsung Galaxy S25">
+        <article class="card">
+          <img src="img/Samsung.jpg" alt="Samsung Galaxy S25" class="card-img" />
+          <div class="card-content">
+            <h2 class="card-title">Samsung Galaxy S25</h2>
+            <p class="card-description">Флагман 2025 года с мощной камерой и инновационным экраном</p>
+            <span class="card-button">Подробнее</span>
+          </div>
+        </article>
+      </a>
+
+      <a href="https://www.mi.com/global/mi-15" target="_blank" rel="noopener" class="card-link" aria-label="Перейти на официальный сайт Xiaomi Mi 15">
+        <article class="card">
+          <img src="img/Xiaomi.jpg" alt="Xiaomi Mi 15" class="card-img" />
+          <div class="card-content">
+            <h2 class="card-title">Xiaomi Mi 15</h2>
+            <p class="card-description">Новейший флагман 2025 года с улучшенным процессором и камерой 200 Мп</p>
+            <span class="card-button">Подробнее</span>
+          </div>
+        </article>
+      </a>
+
+      <a href="https://www.apple.com/ru/iphone-16-pro/" target="_blank" rel="noopener" class="card-link" aria-label="Перейти на официальный сайт iPhone 16 Pro">
+        <article class="card">
+          <img src="img/Iphone.jpg" alt="iPhone 16 Pro" class="card-img" />
+          <div class="card-content">
+            <h2 class="card-title">iPhone 16 Pro</h2>
+            <p class="card-description">Инновационный дизайн, улучшенная автономность и супер камера</p>
+            <span class="card-button">Подробнее</span>
+          </div>
+        </article>
+      </a>
+      
+    </section>
+  </main>
+  <script src="theme.js" defer></script>
+</body>
+</html>

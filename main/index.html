@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Меню выбора</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <main class="menu-container">
+    <h1>Выберите раздел</h1>
+
+    <label class="theme-switch">
+      <input type="checkbox" id="theme-toggle" />
+      <span>Тёмная тема</span>
+    </label>
+
+    <nav class="menu">
+      <a href="../phone/index.html" class="menu-item" id="link-phone" aria-label="Перейти в раздел Смартфоны">
+        <img src="img/phone.png" alt="Телефон" class="menu-icon" />
+        <span>Смартфоны</span>
+      </a>
+      <a href="../computers/index.html" class="menu-item" id="link-computers" aria-label="Перейти в раздел Компьютеры">
+        <img src="img/computer.png" alt="Компьютер" class="menu-icon" />
+        <span>Компьютеры</span>
+      </a>
+    </nav>
+    <footer>
+      <p>© 2025 YTX Corporation</p>
+    </footer>
+  </main>
+
+  <script src="theme.js" defer></script>
+</body>
+</html>
